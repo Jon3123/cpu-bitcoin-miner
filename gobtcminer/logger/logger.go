@@ -7,10 +7,11 @@ Description: Set the parameters for the logger. It is a home-made logger that al
 package logger
 
 import (
-	"cpu-bitcoin-miner/gobtcminer/config"
 	"log"
 	"sync"
 	"time"
+
+	"github.com/Jon3123/cpu-bitcoin-miner/gobtcminer/config"
 )
 
 //Logger object.

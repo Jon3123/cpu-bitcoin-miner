@@ -1,3 +1,3 @@
-module cpu-bitcoin-miner
+module github.com/Jon3123/cpu-bitcoin-miner
 
 go 1.13

@@ -7,10 +7,11 @@ Description: Dispatch the different job to the pool of miners
 package mining
 
 import (
-	"cpu-bitcoin-miner/gobtcminer/block"
-	"cpu-bitcoin-miner/gobtcminer/logger"
 	"runtime"
 	"time"
+
+	"github.com/Jon3123/cpu-bitcoin-miner/gobtcminer/block"
+	"github.com/Jon3123/cpu-bitcoin-miner/gobtcminer/logger"
 )
 
 var chunkQueueCapacity = 300

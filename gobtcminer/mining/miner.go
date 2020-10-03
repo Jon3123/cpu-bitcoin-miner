@@ -7,9 +7,10 @@ Description: Functions for mining a Block Header
 package mining
 
 import (
-	"cpu-bitcoin-miner/gobtcminer/block"
 	"strconv"
 	"time"
+
+	"github.com/Jon3123/cpu-bitcoin-miner/gobtcminer/block"
 )
 
 //MaxNonce standard value

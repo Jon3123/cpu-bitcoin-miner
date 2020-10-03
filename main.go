@@ -1,11 +1,12 @@
 package main
 
 import (
-	"cpu-bitcoin-miner/gobtcminer/client"
-	"cpu-bitcoin-miner/gobtcminer/config"
-	"cpu-bitcoin-miner/gobtcminer/logger"
-	"cpu-bitcoin-miner/gobtcminer/mining"
 	"time"
+
+	"github.com/Jon3123/cpu-bitcoin-miner/gobtcminer/client"
+	"github.com/Jon3123/cpu-bitcoin-miner/gobtcminer/config"
+	"github.com/Jon3123/cpu-bitcoin-miner/gobtcminer/logger"
+	"github.com/Jon3123/cpu-bitcoin-miner/gobtcminer/mining"
 )
 
 var monitor logger.Logger
