@@ -7,7 +7,7 @@ Description: Functions for mining a Block Header
 package mining
 
 import (
-	"gobtcminer/block"
+	"cpu-bitcoin-miner/gobtcminer/block"
 	"strconv"
 	"time"
 )
@@ -103,7 +103,7 @@ func (mine *Miner) mining(chunk Chunk) (bool, Chunk) {
 				//Success
 				chunk.Block.Nonce = nonce
 				hash := block.Doublesha256BlockHeader(chunk.Block)
-                                if hash < chunk.Target {
+				if hash < chunk.Target {
 					monitor.IncrementBlockCount()
 					monitor.Print("info", "NEW BLOCK FOUND!! Nonce:"+strconv.Itoa(int(nonce))+" Miner:"+strconv.Itoa(mine.ID)+" Hash:"+hash)
 					return true, chunk

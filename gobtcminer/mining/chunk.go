@@ -6,7 +6,7 @@ Description: Define the chunk entity to mine
 
 package mining
 
-import "gobtcminer/block"
+import "cpu-bitcoin-miner/gobtcminer/block"
 
 //Chunk entity defined by a block and a target. Nonce is here for checking if the chunk is valid
 type Chunk struct {

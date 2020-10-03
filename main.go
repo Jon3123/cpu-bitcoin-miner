@@ -1,10 +1,10 @@
 package main
 
 import (
-	"gobtcminer/client"
-	"gobtcminer/config"
-	"gobtcminer/logger"
-	"gobtcminer/mining"
+	"cpu-bitcoin-miner/gobtcminer/client"
+	"cpu-bitcoin-miner/gobtcminer/config"
+	"cpu-bitcoin-miner/gobtcminer/logger"
+	"cpu-bitcoin-miner/gobtcminer/mining"
 	"time"
 )
 

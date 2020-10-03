@@ -7,8 +7,8 @@ Description: Dispatch the different job to the pool of miners
 package mining
 
 import (
-	"gobtcminer/block"
-	"gobtcminer/logger"
+	"cpu-bitcoin-miner/gobtcminer/block"
+	"cpu-bitcoin-miner/gobtcminer/logger"
 	"runtime"
 	"time"
 )
